@@ -1,0 +1,35 @@
+{"statement":"SELECT META().id, Field_1 FROM `pillowfight` WHERE Field_1 LIKE '[a-zA-Z0-9]%' LIMIT 10"}
+{"statement":"SELECT COUNT(*) AS count FROM `pillowfight` WHERE Field_2 IS NOT MISSING"}
+{"statement":"SELECT Field_1, COUNT(*) AS count FROM `pillowfight` WHERE Field_1 IS NOT MISSING GROUP BY Field_1 ORDER BY count DESC LIMIT 5"}
+{"statement":"SELECT META().id, Field_1 FROM `pillowfight` WHERE META().id LIKE '[0-9]{20}' LIMIT 10"}
+{"statement":"SELECT AVG(LENGTH(Field_1)) AS avg_length FROM `pillowfight` WHERE Field_1 IS NOT MISSING", "n1qlback":{"prepare":true}}
+{"statement":"SELECT META().id, Field_3 FROM `pillowfight` WHERE Field_3 LIKE '[a-zA-Z0-9]%' LIMIT 10"}
+{"statement":"SELECT META().id, Field_2 FROM `pillowfight` WHERE Field_2 IS NOT MISSING  ORDER BY Field_2 DESC LIMIT 10"}
+{"statement":"SELECT COUNT(*) AS count FROM `pillowfight` WHERE Field_10 IS NOT MISSING"}
+{"statement":"SELECT Field_1 FROM `pillowfight` WHERE Field_1 IS NOT MISSING GROUP BY Field_1 LIMIT 10"}
+{"statement":"SELECT META().id, Field_1 FROM `pillowfight` WHERE LENGTH(Field_1) > 10 AND Field_1 IS NOT MISSING LIMIT 10"}
+{"statement":"SELECT META().id, Field_2 FROM `pillowfight` WHERE Field_2 IN ['no2tiex9kB78sRYb', 'QR2TNYFzOAcjW 32', 'L4Dsf0vQFC0 6d9t'] LIMIT 10"}
+{"statement":"SELECT Field_2, MAX(LENGTH(Field_2)) AS max_length FROM `pillowfight` WHERE Field_2 IS NOT MISSING GROUP BY Field_2 LIMIT 5"}
+{"statement":"SELECT META().id, Field_1, Field_3 FROM `pillowfight` WHERE Field_1 IS NOT MISSING AND Field_3 IS NOT MISSING LIMIT 10"}
+{"statement":"SELECT LENGTH(Field_1) AS length, COUNT(*) AS count FROM `pillowfight` WHERE Field_1 IS NOT MISSING AND LENGTH(Field_1) > 0 GROUP BY LENGTH(Field_1) ORDER BY length"}
+{"statement":"SELECT META().id, Field_1 FROM `pillowfight` WHERE REGEXP_LIKE(Field_1, '[a-zA-Z0-9 ]+') LIMIT 10"}
+{"statement":"SELECT META().id, Field_5 FROM `pillowfight` WHERE Field_5 IS NOT MISSING AND Field_1 IS NOT MISSING ORDER BY Field_1 LIMIT 10"}
+{"statement":"SELECT META().id, Field_1 FROM `pillowfight` WHERE LENGTH(Field_1) BETWEEN 5 AND 15 LIMIT 10"}
+{"statement":"SELECT META().id, Field_4 FROM `pillowfight` WHERE Field_4 IS NOT MISSING LIMIT 10"}
+{"statement":"SELECT Field_1, COUNT(*) AS count FROM `pillowfight` WHERE Field_3 IS NOT MISSING AND Field_1 IS NOT MISSING GROUP BY Field_1 ORDER BY Field_1 LIMIT 5"}
+{"statement":"SELECT META().id, Field_2 FROM `pillowfight` WHERE SUBSTR(Field_2, 0, 3) = 'no2' AND Field_2 IS NOT MISSING LIMIT 10"}
+{"statement":"SELECT MIN(LENGTH(Field_1)) AS min_length FROM `pillowfight` WHERE Field_1 IS NOT MISSING"}
+{"statement":"SELECT META().id, Field_5, Field_6 FROM `pillowfight` WHERE Field_5 IS NOT MISSING AND Field_6 IS NOT MISSING LIMIT 10"}
+{"statement":"SELECT META().id, Field_1 FROM `pillowfight` WHERE LOWER(Field_1) LIKE 'test%' AND Field_1 IS NOT MISSING LIMIT 10"}
+{"statement":"SELECT COUNT(*) AS count FROM `pillowfight` WHERE Field_1 IS NOT MISSING AND Field_2 IS NULL"}
+{"statement":"SELECT Field_4, SUM(LENGTH(Field_1)) AS total_length FROM `pillowfight` WHERE Field_4 IS NOT MISSING AND Field_1 IS NOT MISSING GROUP BY Field_4 LIMIT 5", "n1qlback":{"prepare":true}}
+{"statement":"SELECT META().id, Field_7 FROM `pillowfight` WHERE Field_7 LIKE '%[a-zA-Z0-9 ]%' AND Field_7 IS NOT MISSING LIMIT 10"}
+{"statement":"SELECT MAX(LENGTH(Field_2)) AS max_length FROM `pillowfight` WHERE LENGTH(Field_2) > 5  AND Field_2 IS NOT MISSING "}
+{"statement":"SELECT META().id, Field_1, Field_5 FROM `pillowfight` WHERE Field_1 IS NOT MISSING AND Field_5 IS NOT MISSING ORDER BY Field_1, Field_5 LIMIT 10"}
+{"statement":"SELECT COUNT(Field_3) AS unique_count FROM `pillowfight` WHERE Field_3 IS NOT MISSING GROUP BY Field_3"}
+{"statement":"SELECT META().id, Field_2 FROM `pillowfight` WHERE REGEXP_LIKE(Field_2, '[0-9]+[a-zA-Z ]+') LIMIT 10", "n1qlback":{"prepare":true}}
+{"statement":"SELECT Field_1, COUNT(*) AS count FROM `pillowfight` WHERE Field_1 IS NOT MISSING GROUP BY Field_1 HAVING COUNT(*) > 1 LIMIT 5"}
+{"statement":"SELECT META().id, Field_2 FROM `pillowfight` WHERE LENGTH(Field_2) > 10 AND Field_2 IS NOT MISSING LIMIT 10"}
+{"statement":"SELECT META().id, Field_1 FROM `pillowfight` WHERE Field_1 NOT LIKE '%[0-9][0-9][0-9]%' LIMIT 10"}
+{"statement":"SELECT AVG(LENGTH(Field_4)) AS avg_length FROM `pillowfight` WHERE Field_4 IS NOT MISSING"}
+{"statement":"SELECT Field_2, COUNT(*) AS count FROM `pillowfight` WHERE Field_2 IS NOT MISSING GROUP BY Field_2 ORDER BY count DESC LIMIT 5"}

@@ -57,7 +57,7 @@ The `cbc-pillowfight` tool populates the `pillowfight` bucket in a Couchbase clu
   --min-size 848 \
   --max-size 1240 \
   --num-items 1000000 \
-  --set-pct 100 \
+  --set-pct 50 \
   -U couchbase://{hostname}:8091/pillowfight \
   -u Administrator \
   -P password \
